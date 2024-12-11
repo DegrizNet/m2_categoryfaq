@@ -1,0 +1,31 @@
+<?php
+/** @var $block \Magelan\CategoryFaq\Block\CategoryFaq */
+$faqItems = $block->getFaqItems();
+?>
+<?php if ($block->hasFaqItems()): ?>
+<div class="category-faq" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="faq-title"><?= __('Frequently Asked Questions') ?></div>
+    <dl class="faq-list">
+        <?php foreach ($faqItems as $index => $item): ?>
+        <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <dt <?= $index === count($faqItems) - 1 ? 'class="last"' : '' ?>>
+                <h4 itemprop="name"><?= $this->escapeHtml($item['question']) ?></h4>
+            </dt>
+            <dd itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="display:none;">
+                <div itemprop="text" class="faq-answer">
+                    <?= /* @noEscape */ $item['answer'] ?>
+                </div>
+            </dd>
+        </div>
+        <?php endforeach; ?>
+    </dl>
+</div>
+
+<script type="text/x-magento-init">
+{
+    ".category-faq": {
+        "Magelan_CategoryFaq/js/category-faq": {}
+    }
+}
+</script>
+<?php endif; ?>

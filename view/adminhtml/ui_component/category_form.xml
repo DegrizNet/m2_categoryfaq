@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="faq">
+        <argument name="data" xsi:type="array">
+            <item name="config" xsi:type="array">
+                <item name="label" xsi:type="string" translate="true">FAQ - Frequently Asked Questions</item>
+                <item name="collapsible" xsi:type="boolean">true</item>
+                <item name="opened" xsi:type="boolean">false</item>
+                <item name="sortOrder" xsi:type="number">105</item>
+            </item>
+        </argument>
+
+        <!-- Question 1 -->
+        <field name="catalog_question1">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Question 1</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">101</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="catalog_answer1">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Answer 1</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="wysiwyg" xsi:type="string">true</item>
+                    <item name="sortOrder" xsi:type="number">102</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <!-- Question 2 -->
+        <field name="catalog_question2">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Question 2</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">103</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="catalog_answer2">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Answer 2</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="wysiwyg" xsi:type="string">true</item>
+                    <item name="sortOrder" xsi:type="number">104</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <!-- Question 3 -->
+        <field name="catalog_question3">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Question 3</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">105</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="catalog_answer3">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Answer 3</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="wysiwyg" xsi:type="string">true</item>
+                    <item name="sortOrder" xsi:type="number">106</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <!-- Question 4 -->
+        <field name="catalog_question4">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Question 4</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">107</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="catalog_answer4">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Answer 4</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="wysiwyg" xsi:type="string">true</item>
+                    <item name="sortOrder" xsi:type="number">108</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <!-- Question 5 -->
+        <field name="catalog_question5">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Question 5</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">109</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="catalog_answer5">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Answer 5</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="wysiwyg" xsi:type="string">true</item>
+                    <item name="sortOrder" xsi:type="number">110</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <!-- Question 6 -->
+
+        <field name="catalog_question6">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Question 6</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">111</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="catalog_answer6">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Answer 6</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="wysiwyg" xsi:type="string">true</item>
+                    <item name="sortOrder" xsi:type="number">112</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <!-- Question 7 -->
+        <field name="catalog_question7">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Question 7</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">113</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="catalog_answer7">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Answer 7</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="wysiwyg" xsi:type="string">true</item>
+                    <item name="sortOrder" xsi:type="number">114</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <!-- Question 8 -->
+        <field name="catalog_question8">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Question 8</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">115</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="catalog_answer8">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Answer 8</item>
+                    <item name="formElement" xsi:type="string">textarea</item>
+                    <item name="wysiwyg" xsi:type="string">true</item>
+                    <item name="sortOrder" xsi:type="number">116</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                </item>
+            </argument>
+        </field>
+
+
+    </fieldset>
+</form>
