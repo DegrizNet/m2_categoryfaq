@@ -88,7 +88,7 @@ class InstallData implements InstallDataInterface
                 Category::ENTITY,
                 $attributeSetId,
                 $attributeGroupId,
-                $questionAttributeId,
+                "catalog_question{$i}",
                 100 + $i
             );
 
@@ -96,7 +96,7 @@ class InstallData implements InstallDataInterface
                 Category::ENTITY,
                 $attributeSetId,
                 $attributeGroupId,
-                $answerAttributeId,
+                "catalog_answer{$i}",
                 200 + $i
             );
         }

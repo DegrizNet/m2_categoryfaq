@@ -22,16 +22,28 @@
             </argument>
         </field>
 
-        <field name="catalog_answer1">
+        <field name="catalog_answer1" template="ui/form/field" sortOrder="102" formElement="wysiwyg">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Answer 1</item>
-                    <item name="formElement" xsi:type="string">textarea</item>
-                    <item name="wysiwyg" xsi:type="string">true</item>
-                    <item name="sortOrder" xsi:type="number">102</item>
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="wysiwygConfigData" xsi:type="array">
+                        <item name="is_pagebuilder_enabled" xsi:type="boolean">false</item>
+                        <item name="add_variables" xsi:type="boolean">false</item>
+                        <item name="add_widgets" xsi:type="boolean">false</item>
+                        <item name="add_images" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
+            <settings>
+                <label translate="true">Answer 1</label>
+                <dataType>text</dataType>
+            </settings>
+            <formElements>
+                <wysiwyg class="Magento\Catalog\Ui\Component\Category\Form\Element\Wysiwyg">
+                    <settings>
+                        <wysiwyg>true</wysiwyg>
+                    </settings>
+                </wysiwyg>
+            </formElements>
         </field>
 
         <!-- Question 2 -->
@@ -46,16 +58,28 @@
             </argument>
         </field>
 
-        <field name="catalog_answer2">
+        <field name="catalog_answer2" template="ui/form/field" sortOrder="104" formElement="wysiwyg">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Answer 2</item>
-                    <item name="formElement" xsi:type="string">textarea</item>
-                    <item name="wysiwyg" xsi:type="string">true</item>
-                    <item name="sortOrder" xsi:type="number">104</item>
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="wysiwygConfigData" xsi:type="array">
+                        <item name="is_pagebuilder_enabled" xsi:type="boolean">false</item>
+                        <item name="add_variables" xsi:type="boolean">false</item>
+                        <item name="add_widgets" xsi:type="boolean">false</item>
+                        <item name="add_images" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
+            <settings>
+                <label translate="true">Answer 2</label>
+                <dataType>text</dataType>
+            </settings>
+            <formElements>
+                <wysiwyg class="Magento\Catalog\Ui\Component\Category\Form\Element\Wysiwyg">
+                    <settings>
+                        <wysiwyg>true</wysiwyg>
+                    </settings>
+                </wysiwyg>
+            </formElements>
         </field>
 
         <!-- Question 3 -->
@@ -70,16 +94,28 @@
             </argument>
         </field>
 
-        <field name="catalog_answer3">
+        <field name="catalog_answer3" template="ui/form/field" sortOrder="106" formElement="wysiwyg">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Answer 3</item>
-                    <item name="formElement" xsi:type="string">textarea</item>
-                    <item name="wysiwyg" xsi:type="string">true</item>
-                    <item name="sortOrder" xsi:type="number">106</item>
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="wysiwygConfigData" xsi:type="array">
+                        <item name="is_pagebuilder_enabled" xsi:type="boolean">false</item>
+                        <item name="add_variables" xsi:type="boolean">false</item>
+                        <item name="add_widgets" xsi:type="boolean">false</item>
+                        <item name="add_images" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
+            <settings>
+                <label translate="true">Answer 3</label>
+                <dataType>text</dataType>
+            </settings>
+            <formElements>
+                <wysiwyg class="Magento\Catalog\Ui\Component\Category\Form\Element\Wysiwyg">
+                    <settings>
+                        <wysiwyg>true</wysiwyg>
+                    </settings>
+                </wysiwyg>
+            </formElements>
         </field>
 
         <!-- Question 4 -->
@@ -94,16 +130,28 @@
             </argument>
         </field>
 
-        <field name="catalog_answer4">
+        <field name="catalog_answer4" template="ui/form/field" sortOrder="108" formElement="wysiwyg">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Answer 4</item>
-                    <item name="formElement" xsi:type="string">textarea</item>
-                    <item name="wysiwyg" xsi:type="string">true</item>
-                    <item name="sortOrder" xsi:type="number">108</item>
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="wysiwygConfigData" xsi:type="array">
+                        <item name="is_pagebuilder_enabled" xsi:type="boolean">false</item>
+                        <item name="add_variables" xsi:type="boolean">false</item>
+                        <item name="add_widgets" xsi:type="boolean">false</item>
+                        <item name="add_images" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
+            <settings>
+                <label translate="true">Answer 4</label>
+                <dataType>text</dataType>
+            </settings>
+            <formElements>
+                <wysiwyg class="Magento\Catalog\Ui\Component\Category\Form\Element\Wysiwyg">
+                    <settings>
+                        <wysiwyg>true</wysiwyg>
+                    </settings>
+                </wysiwyg>
+            </formElements>
         </field>
 
         <!-- Question 5 -->
@@ -118,20 +166,31 @@
             </argument>
         </field>
 
-        <field name="catalog_answer5">
+        <field name="catalog_answer5" template="ui/form/field" sortOrder="110" formElement="wysiwyg">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Answer 5</item>
-                    <item name="formElement" xsi:type="string">textarea</item>
-                    <item name="wysiwyg" xsi:type="string">true</item>
-                    <item name="sortOrder" xsi:type="number">110</item>
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="wysiwygConfigData" xsi:type="array">
+                        <item name="is_pagebuilder_enabled" xsi:type="boolean">false</item>
+                        <item name="add_variables" xsi:type="boolean">false</item>
+                        <item name="add_widgets" xsi:type="boolean">false</item>
+                        <item name="add_images" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
+            <settings>
+                <label translate="true">Answer 5</label>
+                <dataType>text</dataType>
+            </settings>
+            <formElements>
+                <wysiwyg class="Magento\Catalog\Ui\Component\Category\Form\Element\Wysiwyg">
+                    <settings>
+                        <wysiwyg>true</wysiwyg>
+                    </settings>
+                </wysiwyg>
+            </formElements>
         </field>
 
         <!-- Question 6 -->
-
         <field name="catalog_question6">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
@@ -143,16 +202,28 @@
             </argument>
         </field>
 
-        <field name="catalog_answer6">
+        <field name="catalog_answer6" template="ui/form/field" sortOrder="112" formElement="wysiwyg">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Answer 6</item>
-                    <item name="formElement" xsi:type="string">textarea</item>
-                    <item name="wysiwyg" xsi:type="string">true</item>
-                    <item name="sortOrder" xsi:type="number">112</item>
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="wysiwygConfigData" xsi:type="array">
+                        <item name="is_pagebuilder_enabled" xsi:type="boolean">false</item>
+                        <item name="add_variables" xsi:type="boolean">false</item>
+                        <item name="add_widgets" xsi:type="boolean">false</item>
+                        <item name="add_images" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
+            <settings>
+                <label translate="true">Answer 6</label>
+                <dataType>text</dataType>
+            </settings>
+            <formElements>
+                <wysiwyg class="Magento\Catalog\Ui\Component\Category\Form\Element\Wysiwyg">
+                    <settings>
+                        <wysiwyg>true</wysiwyg>
+                    </settings>
+                </wysiwyg>
+            </formElements>
         </field>
 
         <!-- Question 7 -->
@@ -167,16 +238,28 @@
             </argument>
         </field>
 
-        <field name="catalog_answer7">
+        <field name="catalog_answer7" template="ui/form/field" sortOrder="114" formElement="wysiwyg">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Answer 7</item>
-                    <item name="formElement" xsi:type="string">textarea</item>
-                    <item name="wysiwyg" xsi:type="string">true</item>
-                    <item name="sortOrder" xsi:type="number">114</item>
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="wysiwygConfigData" xsi:type="array">
+                        <item name="is_pagebuilder_enabled" xsi:type="boolean">false</item>
+                        <item name="add_variables" xsi:type="boolean">false</item>
+                        <item name="add_widgets" xsi:type="boolean">false</item>
+                        <item name="add_images" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
+            <settings>
+                <label translate="true">Answer 7</label>
+                <dataType>text</dataType>
+            </settings>
+            <formElements>
+                <wysiwyg class="Magento\Catalog\Ui\Component\Category\Form\Element\Wysiwyg">
+                    <settings>
+                        <wysiwyg>true</wysiwyg>
+                    </settings>
+                </wysiwyg>
+            </formElements>
         </field>
 
         <!-- Question 8 -->
@@ -191,18 +274,29 @@
             </argument>
         </field>
 
-        <field name="catalog_answer8">
+        <field name="catalog_answer8" template="ui/form/field" sortOrder="116" formElement="wysiwyg">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Answer 8</item>
-                    <item name="formElement" xsi:type="string">textarea</item>
-                    <item name="wysiwyg" xsi:type="string">true</item>
-                    <item name="sortOrder" xsi:type="number">116</item>
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="wysiwygConfigData" xsi:type="array">
+                        <item name="is_pagebuilder_enabled" xsi:type="boolean">false</item>
+                        <item name="add_variables" xsi:type="boolean">false</item>
+                        <item name="add_widgets" xsi:type="boolean">false</item>
+                        <item name="add_images" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
+            <settings>
+                <label translate="true">Answer 8</label>
+                <dataType>text</dataType>
+            </settings>
+            <formElements>
+                <wysiwyg class="Magento\Catalog\Ui\Component\Category\Form\Element\Wysiwyg">
+                    <settings>
+                        <wysiwyg>true</wysiwyg>
+                    </settings>
+                </wysiwyg>
+            </formElements>
         </field>
-
 
     </fieldset>
 </form>

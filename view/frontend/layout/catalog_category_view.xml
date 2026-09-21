@@ -5,7 +5,7 @@
     </head>
     <body>
         <referenceContainer name="content">
-            <block class="Magelan\CategoryFaq\Block\CategoryFaq" name="category.faq" template="Magelan_CategoryFaq::category_faq.phtml" after="category.products"/>
+            <block class="Magelan\CategoryFaq\Block\CategoryFaq" name="category.faq" template="Magelan_CategoryFaq::category_faq.phtml" after="category.long_description"/>
         </referenceContainer>
     </body>
 </page>
