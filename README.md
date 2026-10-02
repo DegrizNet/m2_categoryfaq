@@ -33,6 +33,18 @@ Anže Voh
 5. **Refresh Cache:** Log out and log back into the Magento administration panel and refresh the cache.
 6. **Verify Installation:** Use Google’s Rich Results Test tool to check if the FAQ schema is implemented correctly on your site. [FAQPage Schema test](https://developers.google.com/search/docs/appearance/structured-data)
 
+## Themes
+
+- **Luma** and Luma-based themes: `category_faq.phtml`, an accordion opened by a small RequireJS script.
+- **Hyvä** (1.1 and newer): `hyva/category_faq.phtml`, native `<details>` elements, no JavaScript. `hyva_catalog_category_view.xml` switches the template and drops the Luma stylesheet. The module needs no Hyvä package: without Hyvä these files are never read.
+
+  The Hyvä template uses Tailwind classes, so the module registers itself for the theme's Tailwind build. After installing or updating it, regenerate the list and rebuild the theme CSS:
+
+  ```bash
+  php bin/magento hyva:config:generate
+  cd app/design/frontend/<Vendor>/<theme>/web/tailwind && npm run build
+  ```
+
 ## Notice
 
 - Always test the module on a development version before deploying it to your production environment.
@@ -40,7 +52,7 @@ Anže Voh
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+See [LICENSE.txt](LICENSE.txt).
 
 ## Disclaimer
 

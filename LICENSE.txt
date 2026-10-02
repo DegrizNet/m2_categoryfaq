@@ -1,0 +1,52 @@
+Magelan_CategoryFaq - Commercial Software Licence
+
+Copyright (c) 2026 Degriz d.o.o. (https://degriz.net). All rights reserved.
+
+1. Grant
+   Buying a licence gives you a non-exclusive, non-transferable right to install and use this
+   software on one Magento production installation. You may also run it on development,
+   staging and test copies of that installation. One installation may serve several websites
+   and store views.
+
+2. Modifications
+   You may change the source code for your own use on the licensed installation. Changed code
+   is not covered by the free bug fixing described in the README.
+
+3. Restrictions
+   You may not sell, sublicense, rent, publish or otherwise distribute this software or any
+   part of it, whether changed or unchanged, except to a developer who works on the licensed
+   installation on your behalf. Any copyright notice must stay in place.
+
+4. Updates and support
+   The licence includes the software, updates for the Magento versions stated in the listing
+   and the documentation. Installation, configuration, theme adaptation, designing quizzes and
+   their recommendations, creating cart price rules, conflicts with third party extensions and
+   all other work are billed separately by time spent. A defect that can be reproduced on a clean
+   Magento installation with the Luma theme is fixed free of charge.
+
+5. Third party components
+   No third party components are bundled. Magento and its components are licensed under
+   their own terms.
+
+6. No warranty
+   The software is provided "as is", without warranty of any kind, express or implied. This
+   includes, without limitation, merchantability, fitness for a particular purpose and
+   non-infringement.
+
+7. Limitation of liability
+   To the extent permitted by law, the licensor is not liable for any indirect, incidental or
+   consequential damages, or for loss of data, profit or business. The licensee is
+   responsible for the settings chosen, for the questions and the products a quiz recommends,
+   for the cart price rules behind its coupons, for the consent it asks for before storing
+   e-mail addresses, for the content of its privacy notice and for the lawful use of the quiz
+   in its store. The
+   documentation in this package is a summary of research, not legal advice. Total liability
+   is limited to the price paid for the licence.
+
+8. Termination
+   The licence ends automatically if you break these terms. You must then remove the software
+   from all installations.
+
+9. Governing law
+   This licence is governed by the law of the Republic of Slovenia. The courts of Slovenia
+   have jurisdiction.

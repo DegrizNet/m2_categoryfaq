@@ -1,0 +1,54 @@
+<?php
+/**
+ * Category FAQ, Hyvä version.
+ *
+ * Native <details>/<summary>: opens without JavaScript, keyboard and screen readers work out of
+ * the box. The shared "name" makes it an accordion (one answer open at a time, as on Luma) in
+ * browsers that support it; older ones simply allow several open answers.
+ *
+ * The schema.org FAQPage markup is the same as in the Luma template.
+ */
+
+declare(strict_types=1);
+
+use Magelan\CategoryFaq\Block\CategoryFaq;
+use Magento\Framework\Escaper;
+
+/** @var CategoryFaq $block */
+/** @var Escaper $escaper */
+
+if (!$block->getCurrentCategory() || !$block->hasFaqItems()) {
+    return;
+}
+
+$faqItems = $block->getFaqItems();
+$group = 'magelan-faq-' . (int) $block->getCurrentCategory()->getId();
+?>
+<section class="magelan-faq my-12" itemscope itemtype="https://schema.org/FAQPage"
+         aria-labelledby="<?= /* @noEscape */ $group ?>-title">
+    <h2 id="<?= /* @noEscape */ $group ?>-title" class="mb-6 text-2xl font-semibold md:text-3xl">
+        <?= $escaper->escapeHtml(__('Frequently Asked Questions')) ?>
+    </h2>
+
+    <div class="border-b border-gray-300">
+        <?php foreach ($faqItems as $item): ?>
+            <details class="group border-t border-gray-300" name="<?= /* @noEscape */ $group ?>"
+                     itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-left
+                                text-lg font-medium hover:text-primary [&::-webkit-details-marker]:hidden">
+                    <span itemprop="name"><?= $escaper->escapeHtml($item['question']) ?></span>
+                    <svg class="h-5 w-5 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m6 9 6 6 6-6"/>
+                    </svg>
+                </summary>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="prose max-w-none pb-6 text-gray-700" itemprop="text">
+                        <?= /* @noEscape */ $item['answer'] ?>
+                    </div>
+                </div>
+            </details>
+        <?php endforeach; ?>
+    </div>
+</section>

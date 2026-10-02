@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+    Hyvä only: Hyva_Theme adds a "hyva_" copy of every layout handle on a Hyvä theme, so Luma
+    never reads this file. The Luma template opens the answers with RequireJS + jQuery, which
+    Hyvä does not load; the Hyvä template uses native <details>, no JavaScript at all.
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <remove src="Magelan_CategoryFaq::css/category-faq.css"/>
+    </head>
+    <body>
+        <referenceBlock name="category.faq" template="Magelan_CategoryFaq::hyva/category_faq.phtml"/>
+    </body>
+</page>

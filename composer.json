@@ -2,6 +2,7 @@
     "name": "degriznet/m2_categoryfaq",
     "description": "Magento 2: FAQ questions and answers per category, rendered as an accordion with FAQPage schema markup.",
     "type": "magento2-module",
+    "version": "1.0.1",
     "license": "proprietary",
     "authors": [
         {
@@ -24,5 +25,13 @@
         "psr-4": {
             "Magelan\\CategoryFaq\\": ""
         }
+    },
+    "archive": {
+        "exclude": [
+            "/.gitattributes",
+            "/.gitignore",
+            "/.github",
+            "/dev"
+        ]
     }
 }
