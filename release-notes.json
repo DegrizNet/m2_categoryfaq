@@ -1,0 +1,36 @@
+{
+    "module": "Magelan_CategoryFaq",
+    "package": "degriznet/m2_categoryfaq",
+    "releases": [
+        {
+            "version": "1.0.2",
+            "date": "2026-10-15",
+            "sl": [],
+            "en": []
+        },
+        {
+            "version": "1.0.1",
+            "sl": [
+                "Podpora za temo Hyvä: odgovori se na straneh kategorij odpirajo brez dodatne skripte.",
+                "Urejevalnik z oblikovanjem za odgovore v obrazcu kategorije.",
+                "Slovenski prevod."
+            ],
+            "en": [
+                "Hyvä theme support: answers on category pages open without an extra script.",
+                "A formatting editor for the answers in the category form.",
+                "Slovenian translation."
+            ],
+            "date": "2026-10-02"
+        },
+        {
+            "version": "1.0.0",
+            "sl": [
+                "Prva izdaja: pogosta vprašanja in odgovori na straneh kategorij z označbami FAQ za iskalnike."
+            ],
+            "en": [
+                "First release: frequently asked questions and answers on category pages with FAQ markup for search engines."
+            ],
+            "date": "2026-08-03"
+        }
+    ]
+}
