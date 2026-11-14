@@ -1,5 +1,16 @@
 # Magento 2 - FAQ Schema Markup Module
 
+> **Free and open source (MIT).** Works with Luma and Hyvä out of the box, no compatibility package needed. Made by [Degriz](https://www.degriz.eu/faq-schema-for-categories), a Magento and Hyvä agency from Slovenia.
+
+## Install with Composer
+
+```
+composer require degriznet/m2_categoryfaq
+bin/magento module:enable Magelan_CategoryFaq
+bin/magento setup:upgrade
+bin/magento cache:flush
+```
+
 The FAQ Schema Markup module for Magento 2 integrates structured data for frequently asked questions into your Magento store. This module helps search engines understand the content of your FAQs, potentially enhancing visibility in search results with rich snippets.
 
 ## Features

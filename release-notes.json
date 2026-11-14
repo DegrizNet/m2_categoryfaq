@@ -3,6 +3,18 @@
     "package": "degriznet/m2_categoryfaq",
     "releases": [
         {
+            "version": "1.1.0",
+            "date": "2026-11-14",
+            "sl": [
+                "Modul je zdaj brezplačen in odprtokoden (licenca MIT).",
+                "Podpora za PHP 8.5."
+            ],
+            "en": [
+                "The module is now free and open source (MIT licence).",
+                "PHP 8.5 support."
+            ]
+        },
+        {
             "version": "1.0.2",
             "date": "2026-10-15",
             "sl": [],
